@@ -13,6 +13,7 @@
             return View();
         }
 
+        [Route("Home/About")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
